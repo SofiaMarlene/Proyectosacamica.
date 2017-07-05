@@ -1,0 +1,77 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/sailormoon.jpg);
+  line-height: 40px;
+}
+
+
+html {
+  cursor: url(http://68.media.tumblr.com/77d4fd0a305a6341e36c4ccc3f928f4a/tumblr_inline_mki81brQTS1qz4rgp.png), progress !important;
+  /*kawaiicursors.tumblr.com*/
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+  line-height: 20px;
+}
+
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+#titulo {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+
+.col-60 {
+  background:pink;
+  width:600px;
+  height: 600px;
+}
+
+.col-40 {
+  height: 400px;
+  background:#FFF;
+  padding: 30px;
+  padding-top: 20px;
+}
+ 
+ img {
+  width:200px;
+  height: 200px;
+  border: 1px solid white;
+}
+div .pieza{
+  width:200px;
+  height: 200px;
+  float: left;
+}
+
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
